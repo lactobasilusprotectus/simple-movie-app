@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a381f82-3854-42c4-b922-81c067f08c03" name="Default Changelist" comment="" />
+    <list default="true" id="8a381f82-3854-42c4-b922-81c067f08c03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/ViewModels/MovieViewModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ViewModels/MoviesViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Movies_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Movies_App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/MovieCard.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/MovieCard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/movie-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/movie-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ViewMovie.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ViewMovie.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +24,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -121,14 +138,19 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-view-models" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hBW5kzDEm8Wi8Jr1eR53Hu8HeR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -164,11 +186,15 @@
       <workItem from="1599567129495" duration="7252000" />
       <workItem from="1599610583454" duration="1724000" />
       <workItem from="1599619512037" duration="7889000" />
+      <workItem from="1599632992783" duration="6487000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="249" key="#Composer" timestamp="1599485063459">
@@ -183,10 +209,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1599551787814" />
-    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599569898096">
+    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599638818153">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1599569898096" />
+    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1599638818153" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1599532441620">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -195,9 +221,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="214" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599610815631" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599611943452">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599636791717">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599611943452" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599636791717" />
   </component>
 </project>
